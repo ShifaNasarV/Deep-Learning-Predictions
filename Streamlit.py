@@ -29,7 +29,7 @@ def tumor_detection(img, model):
     return "Tumor Detected" if res else "No Tumor"
 
 # Streamlit App
-st.title("Deep Prediction Hub")
+st.title("Deep-Learning-Predictions")
 
 # Choose between tasks
 task = st.radio("Select Task", ("Sentiment Classification", "Tumor Detection"))
